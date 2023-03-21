@@ -8,8 +8,8 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path = "/" element = {<Home />}/>
-        <Route path = "/reservations" element = {<Reservations />}/>
+        <Route path='/' element={<Home />}/>
+        <Route path='/reservations' element={<Reservations />}/>
         <Route path='*' element={ <Navigate to='/' /> } />
       </Routes>
     </>
